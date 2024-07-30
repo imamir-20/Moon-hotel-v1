@@ -1,0 +1,213 @@
+/* home page designing */
+.background{width: 100%;
+height: 800px;
+background-color: rgba(0, 0, 0, 0.951);
+text-align: center;
+}
+.moonElement{width: 170px;
+height: 180px;
+display: inline-block;
+margin-top: 170px;
+}
+
+.moonElement:hover{
+width: 230px;
+height: 240px;
+transition: 700ms;
+box-shadow: 5px 5px 70px #adb1a3e5;
+border-radius: 100%;
+}
+.hotelName{
+margin-top: 15px;
+color:white;
+font-size: 46px;
+font-style: oblique;}
+.stars{color:rgb(218, 252, 2);
+display: block;
+font-size: 20px;
+margin-top: 5px;
+box-shadow: 5px 5px 70px #e9f271e5;}
+
+.hotelName:hover{color: #e8ef08;
+transition: 700ms;}
+.loginbox{margin-top: 50px;
+width: 250px;
+height: 25px;
+text-align: center;
+border-radius: 50px;
+background-color: 5px 5px 70px #e9f271;
+margin-left: 633px;}
+.loginbox:hover{background-color: tomato;}
+
+
+
+/* styles for header part */
+.headerBox{
+width: 100%;
+height: 50px;
+background-color: black; 
+}
+.Appicon{width: 50px;
+height: 50px;
+display: inline-block;
+border-radius: 100%;}
+#mainlogo{width: 200px;
+height:50px;
+display: inline-block;
+margin-left: 600px;}
+.linkdivs{display: inline-block;
+width:130px;
+height:50px;
+background-color: rgba(0, 0, 0, 0.71);
+text-align: center;
+float: right;
+}
+.loc{display: inline-block;
+margin-top: 10PX;
+color: white;}
+.linkdivs:hover{
+    background-color: tomato;
+}   
+/* styles for the environment page */
+.background2{width:100%;
+height: 700px;
+background-repeat: no-repeat;
+background: linear-gradient(to bottom,rgba(57, 55, 55, 0.712),rgb(70, 67, 67)),url(/assets/images/dark-ai-wallpaper-22.jpg.jpg);
+text-align: center;}
+
+.box{display: inline-block;
+width: 630px;
+height: 530px;
+border-radius: 50px;
+background-color: rgba(240, 248, 255, 0.303);
+margin-top: 30px;}
+.innerBox{display: inline-block;
+width: 200px;    
+height: 120px;
+background-color: rgb(223, 237, 237);
+margin-top: 33px;
+}
+
+.boxImages{display:block;
+width: 180px;
+height: 100px;
+margin-left: 10px;
+margin-top: 5px;
+}
+.placesName{font-size: 15px;
+color: black;}
+
+.innerBox:hover{ 
+box-shadow: 5px 5px 70px #e8ef08;
+transition: 200ms;
+}
+
+.backNextsign{ margin-top: 12px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0);
+}
+/* the satisfication and comments page */
+.poster{color: rgb(197, 193, 189);
+font-size: 40px;
+margin-top: 45px;}
+.poster:hover{color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: 45px;
+    transition: 500ms;}
+
+.logo{display: inline-block;
+margin-top: 10px;}   
+.logo:hover{box-shadow: 5px 5px 70px #fafaf9;
+transition: 500ms;} 
+
+.commentBox{width: 100%;
+height: 200px;
+margin-top: 30px;
+background-color: #f3f4f034;}
+.innercBox{width: 220px;
+height: 200px;
+background-color: #f3f4f0cf;
+display: inline-block;
+margin-left: 15px;
+border-radius: 20px;
+text-align: center;}
+.profile{display: inline-block;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}   
+
+.display1{display: block;
+margin-top: 5px;}
+.starscolor{color: #e8ef08;
+font-size: 23px;
+display: block;
+margin-top: 2px;}
+
+.innercBox:hover{
+    width: 220px;
+    height: 240px;
+    box-shadow: 5px 5px 70px #f7f7f7;
+}
+
+.addcomment{display:inline-block;
+margin-top: 30px;
+font-size: 24px;
+border-radius: 50px;
+width: 150px;}
+.addcomment:hover{box-shadow: 5px 5px 70px #fafaf9;
+transition: 500ms;}
+
+/* services page */
+
+.serviceBox{width: 100%;
+height: 150px;
+margin-top: 30px;
+background-color: #f3f4f000;}
+.innerSBox{width: 130px;
+height: 35px;
+background-color: #f7f7f7;
+display: inline-block;
+text-align: center;
+border-radius: 50px;
+margin-left: 30px;
+}
+.facilities{display: inline-block;
+margin-top: 3px;
+color: black;
+}
+.innerSBox:hover{ box-shadow: 5px 5px 70px #f7f7f7;
+    background-color: tomato;
+}
+
+.serviceIcon{width: 450px;
+height: 100px;
+background-color: rgba(250, 235, 215, 0.59);
+margin-top: 30px;
+margin-left: 530px;
+border-radius: 50px;}
+.iconImage{width: 70px;
+height: 70px;
+float:left;
+border-radius: 100%;
+display: inline-block;
+margin-top: 13px;
+margin-left: 19px;}
+.name{display:block ;
+margin-right: 100px;}
+.serviceIcon:hover{
+background-color: rgba(250, 235, 215, 0.59);
+box-shadow: 5px 5px 70px #f7f7f7;}
+.contactBox{width: 200px;
+height: 24px;
+text-align: center;
+border-radius: 50px;
+background-color: #f7f7f7;
+margin-top: 50px;
+margin-left: 645px;}
+.contactBox:hover{ box-shadow: 5px 5px 70px #f7f7f7;
+background-color: tomato;}
